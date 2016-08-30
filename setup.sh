@@ -29,7 +29,7 @@ install_rust_stuff() {
     source ~/.cargo/env
     curl -sf \
          "https://raw.githubusercontent.com/japaric/rust-everywhere/master/install.sh" | \
-        bash -s -- --from japaric/xargo --at /root/.cargo/bin --tag 0.1.5
+        bash -s -- --from japaric/xargo --at /root/.cargo/bin --tag v0.1.5
     rustup toolchain remove stable
 }
 
