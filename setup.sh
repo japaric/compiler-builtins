@@ -16,7 +16,7 @@ install_deps() {
             `# powerpc-unknown-linux-gnu` gcc-powerpc-linux-gnu libc6-dev-powerpc-cross \
             `# powerpc64-unknown-linux-gnu` gcc-powerpc64-linux-gnu libc6-dev libc6-dev-ppc64-cross \
             `# powerpc64le-unknown-linux-gnu` gcc-powerpc64le-linux-gnu libc6-dev libc6-dev-ppc64el-cross \
-            `# thumbv*-none-eabi` gcc-arm-none-eabi \
+            `# thumbv*-none-eabi` gcc-arm-none-eabi libnewlib-dev \
             `# x86_64-unknown-linux-gnu` gcc libc6-dev
 }
 
